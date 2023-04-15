@@ -1,8 +1,8 @@
 # One-Page-Personal-Webpage
-A simple one-pager personal webpage made using HTML and CSS and free hosted via Vercel.
+## A simple one-pager personal webpage made using HTML and CSS and free hosted via Vercel.
 
-Live link:
+### Live link:
+https://ivan-suralta.vercel.app/
 
-
-Preview:
-![image](https://user-images.githubusercontent.com/88656474/232228709-6e016409-f446-483a-94b5-08dadfb01974.png)
+### Preview:
+![image](https://user-images.githubusercontent.com/88656474/232228786-79b20206-f155-4ff9-b650-b354287bda1b.png)
