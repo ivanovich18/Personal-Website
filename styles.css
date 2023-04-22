@@ -7,6 +7,11 @@
     /* border: 1px solid red; */
 }
 
+.container {
+    align-items: center;
+    justify-content: center;
+}
+
 .main-body {
     position: absolute;
     width: 100%;
@@ -17,54 +22,53 @@
 }
 
 .container {
-    /* border: 1px solid red; */
     display: flex;
     justify-content: center;
 }
 
 .profile-pic {
-    width: 160px;
-    height: 160px;
-    margin-top: 160px;
+    width: 10rem;
+    height: 10rem;
+    margin-top: 10rem;
 }
 
 .title-text {
     position: absolute;
-    top: 330px;
+    top: 20.625rem;
     font-style: normal;
     font-weight: 700;
-    font-size: 36px;
-    line-height: 44px;
+    font-size: 2.25rem;
+    line-height: 2.75rem;
     color: #FFFFFF;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .subtitle-text {
     position: absolute;
-    width: 488px;
-    height: 39px;
-    top: 375px;
+    width: 30.5rem;
+    height: 2.4375rem;
+    top: 23.4375rem;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     font-style: normal;
     font-weight: 400;
-    font-size: 32px;
-    line-height: 39px;
+    font-size: 2rem;
+    line-height: 2.4375rem;
     color: #FFFFFF;
 }
 
 .button-text {
     font-style: normal;
     font-weight: 400;
-    font-size: 20px;
-    line-height: 24px;
+    font-size: 1.25rem;
+    line-height: 1.5rem;
     text-decoration: none;
     color: #000000;
 }
 
 button {
     position: absolute;
-    width: 158px;
-    height: 47px;
+    width: 9.375rem;
+    height: 2.9375rem;
     background: #E5E5E5;
     border: 2px solid #FFFFFF;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -74,23 +78,23 @@ button {
 }
 
 .bt1 {
-    top: 473px;
+    top: 29.5625rem;
 }
 
 .bt2 {
-    top: 535px;
+    top: 33.4375rem;
 }
 
 .bt3 {
-    top: 597px;
+    top: 37.3125rem;
 }
 
 .bt4 {
-    top: 659px;
+    top: 41.1875rem;
 }
 
 .bt5 {
-    top: 721px;
+    top: 45.0625rem;
 }
 
 .footer {
@@ -106,13 +110,20 @@ button {
     text-shadow: 0px 4px 4px #000000;
     font-style: normal;
     font-weight: 400;
-    font-size: 20px;
-    line-height: 28px;
+    font-size: 1.25rem;
+    line-height: 1.75rem;
 
     color: #FFFFFF;
 }
 
 @media screen and (max-width: 600px) {
+
+    .main-body {
+        background-size: cover;
+        height: 100vh;
+        width: 100vw;
+    }
+
     .subtitle-text {
         font-size: 20px;
         text-align: center;
